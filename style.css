@@ -1,0 +1,35 @@
+
+.body {
+    width: 1024px;
+    height: 720px;
+}
+
+.name {
+    position: absolute; 
+    bottom: 10%;
+    left: 13%;
+    font-size: 50px;
+    font-weight: semi-bold;
+}
+
+#first_name {
+    margin-bottom: 0px;
+}
+
+#last_name {
+    margin-top: 10px;
+    margin-left: 25%;
+}
+
+.long-image {
+    position: relative;
+    height: 432px;
+    width: 400px;
+    left: 30%;
+    top: 100px
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
