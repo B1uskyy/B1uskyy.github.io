@@ -1,8 +1,77 @@
+/* * {
+    outline: red dashed 1px;
+
+} */
+
 #project {
     position: absolute;
     font-weight: 100;
     font-size: 80px;
     margin-left: 40%;
+    top: 0%;
+}
+
+.list_of_projects {
+    position: relative;
+    top: 25%;
+    width: 1024px;
+   
+}
+
+p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#project_header {
+    font-size: 36px;
+    text-align: center;
+    line-height: 80px;
+    font-weight: bold;
+    margin-top: 0;
+}
+.project1 {
+
+    position: absolute;
+    height: 500px;
+    width: 1200px;
+    float: left;
+    outline: 6px dotted lightblue;
+    
+    
+  
+}
+
+.project1 p {
+    width: 60%;
+    font-size: 20px;
+    line-height: 1.5;
     
 }
+
+#kabakada_link {
+   color: purple;
+   font-weight: 300;
+}
+
+#kaba_image {
+    width: 250px;
+    float: right;
+    position: relative;
+    bottom: 250px;
+    padding-right: 10px;
+
+
+    
+    
+}
+
+#project1_text, .project1 p {
+    display: inline;
+    float: left; 
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+
 
