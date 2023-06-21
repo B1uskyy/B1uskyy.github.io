@@ -1,7 +1,7 @@
-/* * {
+* {
     outline: red dashed 1px;
 
-} */
+}
 
 #project {
     position: absolute;
@@ -44,13 +44,15 @@ h1 {
     width: 1200px;
     float: left;
     /* outline: 6px dotted lightblue; */
-    background: rgba(255, 123, 156, 0.4);
+    
     
 
 }
 .oop-project {
     height: 500px;
     width: 1200px;
+    position: relative;
+
 }
 
 .list_of_projects p {
@@ -87,12 +89,13 @@ h1 {
   
 }
 
-
-
-.oop-project {
-    position: relative;
-    
-    
+.footer {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    height: 100px;
+    background-color: grey;
 }
+
 
 
