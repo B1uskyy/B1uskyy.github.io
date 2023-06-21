@@ -1,7 +1,7 @@
-* {
+/* * {
     outline: red dashed 1px;
 
-}
+} */
 
 #project {
     position: absolute;
@@ -26,7 +26,9 @@ p, h1 {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-
+h1 {
+    text-align: center;
+}
 
 #project_header {
     font-size: 36px;
@@ -42,15 +44,25 @@ p, h1 {
     width: 1200px;
     float: left;
     /* outline: 6px dotted lightblue; */
+    background: rgba(255, 123, 156, 0.4);
+    
 
 }
+.oop-project {
+    height: 500px;
+    width: 1200px;
+}
 
-.project1 p {
-    width: 60%;
+.list_of_projects p {
+    width: 70%;
     font-size: 20px;
     line-height: 1.5;
+    margin-left: 20px;
+    margin-top: 0;
     
 }
+
+
 
 #kabakada_link {
    color: purple;
@@ -72,8 +84,7 @@ p, h1 {
 #project1_text, .project1 p {
     display: inline;
     float: left; 
-    margin-left: 20px;
-    margin-top: 0;
+  
 }
 
 
