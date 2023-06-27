@@ -1,0 +1,22 @@
+
+
+
+
+.contact-form {
+
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background-color: green;
+    top: 25%;
+    left: 25%;
+    display: grid;
+   
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 24rem;
+    gap: 1rem       ;
+}
