@@ -40,7 +40,7 @@ body {
 .navbar {
     position: relative;
     height: 60px;
-    width: 100%;
+    width: 1024px;
     /* background-color: red; */
     display: flex;
     /* background-color: orange; */
@@ -98,6 +98,9 @@ a {
     z-index: 1;
 }
 
+footer {
+    width: 100%;
+}
 
 
 
