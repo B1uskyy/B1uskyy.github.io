@@ -34,7 +34,7 @@ h1 {
 
 #project_header {
     font-size: 36px;
-    text-align: center;
+    /* text-align: center; */
     line-height: 80px;
     font-weight: bold;
     margin-top: 0;
