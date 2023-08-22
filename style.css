@@ -14,36 +14,49 @@ body {
 }
 
 
+
+.navbar-left > a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
 .navbar {
     height: 60px;
-    width: 1024px;
-    /* background-color: red; */
+    width: 100vw;
     display: flex;
+    justify-content: space-between;
     /* background-color: orange; */
 }
 
-a {
+.navbar-left {
+    display: flex;
     text-decoration: none;
+    gap: 40px;
+    margin-left: 40px;
+    justify-content: flex-start;
+    align-items: center;
 }
 
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 40px;
+}
 
 
 
 #git {
-    margin-left: 500px;
-    height: 75%;
-
-    
-
+    height: 100%;
     
 }
 #linkedin {
-    height: 75%;
-    
+    height: 100%;
 
 }
 
-.navbar p:hover {
+.navbar-left a:hover {
     box-shadow: inset 100px 0 0 0 #54b3d6;
     /* color: white;     */
 }
