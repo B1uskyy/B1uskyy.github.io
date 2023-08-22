@@ -1,0 +1,36 @@
+
+
+#first_name {
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#last_name {
+    margin-top: 10px;
+    text-align: center;
+   
+}
+#description {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+.image {
+    height: 500px;
+    width: 500px;
+    background-color: blue;
+    position: absolute;
+    bottom: 0%;
+    right: 15%;
+}
+
+.red-box {
+    position: absolute;
+    background-color: red;
+    height: 250px;
+    width: 250px;
+    right: 10%;
+    bottom: 50%;
+    z-index: 1;
+}

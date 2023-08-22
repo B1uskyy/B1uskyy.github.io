@@ -1,7 +1,12 @@
-/* * {
+* {
     outline: red dashed 1px;
 
-} */
+}
+
+body {
+    width: 1024px;
+    height: 720px;
+}
 
 #project {
     position: absolute;
@@ -9,14 +14,10 @@
     font-size: 80px;
     margin-left: 40%;
     top: 0%;
+
 }
 
-.list_of_projects {
-    position: relative;
-    top: 25%;
-    width: 1024px;
-   
-}
+
 
 
 
@@ -24,73 +25,8 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-p, h1 {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-h1 {
-    text-align: center;
-}
-
-#project_header {
-    font-size: 36px;
-    text-align: center;
-    line-height: 80px;
-    font-weight: bold;
-    margin-top: 0;
-}
-.project1 {
-
-    position: relative;
-    height: 500px;
-    width: 1200px;
-    float: left;
-    /* outline: 6px dotted lightblue; */
-    
-    
-
-}
-.oop-project {
-    height: 500px;
-    width: 1200px;
-    position: relative;
-    
-
-}
-
-.list_of_projects p {
-    width: 70%;
-    font-size: 20px;
-    line-height: 1.5;
-    margin-left: 20px;
-    margin-top: 0;
-    
-}
 
 
-
-#kabakada_link {
-   color: purple;
-   font-weight: 300;
-}
-
-#kaba_image {
-    width: 250px;
-    float: right;
-    position: relative;
-    bottom: 250px;
-    padding-right: 10px;
-
-
-    
-    
-}
-
-#project1_text, .project1 p {
-    display: inline;
-    float: left; 
-  
-}
 
 
 
