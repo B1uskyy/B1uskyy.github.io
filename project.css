@@ -1,7 +1,4 @@
-* {
-    /* outline: red dashed 1px; */
 
-}
 
 body {
     width: 1024px;
@@ -11,8 +8,9 @@ body {
 #project-header {
     font-weight: 100;
     font-size: 80px;
-    margin-left: 50%;
+    margin-left: 30vw;
     top: 0%;
+    width: 100vw;
 
 }
 
@@ -22,25 +20,28 @@ a {
 }
 
 
-.navbar p {
-    font-family: 'Times New Roman', Times, serif;
-}
-
 .projects {
+    width: 100vw;
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap:wrap; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 40px;
+
+    
 }
 
 .project-square {
     display: flex;
     flex-direction: column;
     background-color: #031927;
-    height: 320px;
+    height: 220px;
     width: 400px;
     color: white;
     border-radius: 10px;
     padding: 20px;
+
+    transition: margin 0.5s ease-out;
 }
 
 .languages {
@@ -56,6 +57,15 @@ button {
     margin-right: 10px;
     height: 25px;
 
+}
+
+.project-square:hover {
+    margin-top: -20px;
+    transition: margin 0.5s ease-in;
+}
+
+.project-square > p {
+    color: #FFFBFA;
 }
 
 
