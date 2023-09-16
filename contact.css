@@ -13,6 +13,7 @@
    
 }
 
+
 form {
     position: absolute;
     display: flex;
@@ -28,8 +29,11 @@ form {
 
 #contact-me {
     position: relative; 
-   left: 25%;
-   top: 350px;
+    left: 25%;
+    top: 350px;
+    font-weight: 100;
+    font-size: 5rem;
+
 }
 
 input, 

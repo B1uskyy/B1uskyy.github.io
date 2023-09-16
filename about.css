@@ -1,7 +1,13 @@
 
+body {
+    height: 100vh; /* Ensure the body covers the entire viewport height */
+    display: flex;
+    flex-direction: column;
+    
+}
 
 .main {
-    width: 100vw;
+    width: 100%;
     display: flex;
     align-items: center;
     margin: 2vw;
@@ -12,11 +18,13 @@
 
 h1 {
     margin-left: 40vw;
+    font-weight: 100;
+    font-size: 5rem;
 }
 
 p {
     width: clamp(45ch, 50%, 75ch);
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 .text-block {
@@ -29,3 +37,8 @@ p {
     border-radius: 15%;
     height: 350px;
 }
+
+
+
+
+

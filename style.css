@@ -1,7 +1,6 @@
 
-body {
-    width: 1024px;
-    height: 720px;
+body{
+    height: 100%;
 }
 
 .name {
@@ -61,6 +60,9 @@ body {
     box-shadow: inset 100px 0 0 0 #54b3d6;
     /* color: white;     */
 }
+
+
+
 
 
 

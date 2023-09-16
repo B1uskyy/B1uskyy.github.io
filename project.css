@@ -1,8 +1,7 @@
 
 
-body {
-    width: 1024px;
-    height: 720px;
+html {
+    height: 100%
 }
 
 #project-header {
