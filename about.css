@@ -38,6 +38,15 @@ p {
     height: 350px;
 }
 
+.blob {
+    z-index: -1;
+    width: 40vw;
+    position: relative;
+    left: 60vw;
+    bottom: 40vw;
+
+}
+
 
 
 
