@@ -27,7 +27,7 @@ html {
     width: 600px;
     height: 400px;
     display: grid;
-    box-shadow: 5px 5px 5px 5px lightblue;
+    box-shadow: 5px 5px 5px 5px var(--secondary);
     justify-content: center;
     align-items: center;
    
@@ -64,6 +64,6 @@ button {
     border: none;
     width: 20%; 
     height: 2rem; 
-    background-color: #54b3d6;
+    background-color: var(--primary);
     cursor: pointer;
 }
