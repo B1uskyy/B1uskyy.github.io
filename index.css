@@ -33,3 +33,10 @@
     bottom: 50%;
     z-index: 1;
 }
+
+
+svg {
+    position: absolute; 
+    top: 70px; 
+    z-index: -1;
+}
