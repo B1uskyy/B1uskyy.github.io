@@ -47,10 +47,10 @@ a {
 .project-square {
     display: flex;
     flex-direction: column;
-    background-color: #031927;
+    background-color: var(--primary);
     height: 220px;
     width: 400px;
-    color: white;
+    color: var(--text);
     border-radius: 10px;
     padding: 20px;
 
@@ -64,8 +64,8 @@ a {
 
 button {
     border-radius: 2em;
-    outline: 2px solid white;
-    background-color: #464655;
+    outline: 2px solid var(--secondary);
+    background-color: var(--accent);
     color: white;
     margin-right: 10px;
     height: 25px;
@@ -78,7 +78,7 @@ button {
 }
 
 .project-square > p {
-    color: #FFFBFA;
+    color: var(--text);
 }
 
 svg {
