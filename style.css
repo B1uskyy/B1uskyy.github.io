@@ -5,12 +5,18 @@ body{
     color: var(--text);
 }
 
+footer {
+    height: 10%;
+}
+
 :root {
     --background: #FEFDFB ;
     --primary: #87EE91; 
     --secondary: #AFCAF4; 
     --accent: #BB1BAB ;
     --text: #241705; 
+    display: flex;
+    flex-direction: column;
 }
 
 .name {
